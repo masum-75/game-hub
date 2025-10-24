@@ -1,20 +1,26 @@
-import React from 'react';
-import Header from '../components/Header';
-import Navbar from '../components/Navbar';
-import { Outlet } from 'react-router';
+import React from "react";
+import { Outlet } from "react-router";
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 const HomeLayout = () => {
-    return (
-        <div>
-           <header>
-            <Header></Header>
-            <Navbar></Navbar>
-            </header> 
-            <main className="w-11/12 mx-auto my-6">
-                <Outlet></Outlet>
-            </main>
+  return (
+    <div className="min-h-screen bg-[#0b0b0b] text-white">
+      <header className="border-b border-gray-800">
+        <div className="w-11/12 mx-auto py-4">
+          <Navbar />
         </div>
-    );
+      </header>
+
+      <main className="w-11/12 mx-auto py-8">
+        <Outlet />
+      </main>
+
+      <footer className="w-full">
+        <Footer />
+      </footer>
+    </div>
+  );
 };
 
 export default HomeLayout;

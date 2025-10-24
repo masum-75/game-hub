@@ -1,7 +1,7 @@
 @import "tailwindcss";
 @plugin "daisyui";
 
-/* body {
+body {
   @apply bg-gradient-to-br from-[#0f172a] via-[#1e293b] to-[#0ea5e9] text-gray-100 min-h-screen;
   font-family: 'Poppins', sans-serif;
 }
@@ -32,4 +32,4 @@
 
 .section-title {
   @apply text-3xl font-extrabold text-blue-400 mb-6 tracking-wide;
-} */
+}

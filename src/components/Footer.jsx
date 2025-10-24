@@ -1,9 +1,11 @@
-export default function Footer() {
+import React from 'react';
+
+const Footer = () => {
   return (
-    <footer className="bg-black/30 mt-8">
-      <div className="container mx-auto px-4 py-6 text-center">
-        <p>© {new Date().getFullYear()} Gamehub. All rights reserved.</p>
-      </div>
-    </footer>
+    <div>
+      
+    </div>
   );
-}
+};
+
+export default Footer;
