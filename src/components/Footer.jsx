@@ -3,7 +3,7 @@ import { Link } from "react-router";
 
 const Footer = () => {
   return (
-    <div className="bg-[#111] text-gray-300 py-10 cursor-pointer">
+    <div className="bg-gradient-to-br from-[#0a0a0a] via-[#1b1b1b] to-[#2d2d2d] text-gray-300 py-10 cursor-pointer">
       <div className="w-11/12 mx-auto grid grid-cols-1 md:grid-cols-4 gap-6">
         <div>
           <h3 className="font-bold text-white">GAMEHUB</h3>
@@ -15,8 +15,8 @@ const Footer = () => {
           <h4 className="font-semibold">Useful Links</h4>
           <ul className="flex flex-col mt-3 space-y-2 text-sm">
             <Link to="/">Home</Link>
-            <Link to="/submit">Submit Game</Link>
-            <Link to="/#library">Library</Link>
+            <Link to="/installation">Installed</Link>
+            <Link to="/about">About</Link>
           </ul>
         </div>
 

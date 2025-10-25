@@ -6,7 +6,7 @@ import MyProfile from "../pages/MyProfile";
 
 const HomeLayout = () => {
   return (
-    <div className="min-h-screen bg-[#0b0b0b] text-white">
+    <div className="bg-gradient-to-br from-[#0f172a] via-[#1e293b] to-[#0ea5e9] text-gray-100 min-h-screen;">
       <header className="border-b border-gray-800">
         <div className="w-11/12 mx-auto py-4">
           <Navbar />

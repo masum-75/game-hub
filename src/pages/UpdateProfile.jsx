@@ -20,7 +20,7 @@ const UpdateProfile = () => {
   };
 
   return (
-    <form onSubmit={handleUpdate} className="card bg-[#0b0b0b] p-6 w-full max-w-md">
+    <form onSubmit={handleUpdate} className="card bg-[#0b0b0b]  p-6 w-full max-w-md">
       <h2 className="text-2xl font-bold mb-4">Update Info</h2>
       <label className="label">Name</label>
       <input value={name} onChange={(e)=>setName(e.target.value)} className="input" />

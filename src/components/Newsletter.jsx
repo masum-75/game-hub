@@ -23,7 +23,7 @@ const Newsletter = () => {
   };
 
   return (
-    <section className="mt-10 bg-gradient-to-r from-[#111] to-[#0b0b0b] p-6 rounded">
+    <section className="mt-10 bg-gradient-to-br from-[#0a0a0a] via-[#1b1b1b] to-[#2d2d2d] p-6 rounded">
       <h3 className="text-xl font-bold">Join Our Newsletter</h3>
       <p className="text-gray-400">Get updates on new releases, sales, and indie spotlights.</p>
       <form onSubmit={handleSubscribe} className="mt-4 flex gap-2">

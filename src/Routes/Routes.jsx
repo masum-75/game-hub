@@ -6,11 +6,12 @@ import Login from "../pages/Login";
 import Register from "../pages/Register";
 import GameDetails from "../pages/GameDetails";
 import ForgotPassword from "../pages/ForgotPassword";
-
 import UpdateProfile from "../pages/UpdateProfile";
 import NotFound from "../pages/NotFound";
-import ExtraPage from "../pages/ExtraPage";
 import MyProfile from "../pages/MyProfile";
+import Installation from "../pages/Installation";
+import About from "../pages/About";
+import PrivateRoute from "../authProvider/PrivateRoute";
 
 export const router = createBrowserRouter([
   {
@@ -18,21 +19,36 @@ export const router = createBrowserRouter([
     element: <HomeLayout />,
     children: [
       { index: true, element: <Home /> },
-      { path: "game/:id", element:
-          
-            <GameDetails />
-          
+      { path: "game/:id", 
+        element: <PrivateRoute>
+          <GameDetails />
+        </PrivateRoute>
+        },
+      { path: "profile",
+      element: <PrivateRoute>
+        <MyProfile></MyProfile> 
+      </PrivateRoute>
+    },
+      { path: "profile/update", 
+        element: <PrivateRoute>
+          <UpdateProfile />
+        </PrivateRoute> 
+
       },
-      { path: "profile", 
-        element: <MyProfile></MyProfile>
-          
+      {
+        path: "/installation",
+        element: (
+         
+            <PrivateRoute>
+              <Installation />
+            </PrivateRoute>
+         
+        ),
       },
-      { path: "profile/update", element:
-          
-            <UpdateProfile />
-          
+      {
+        path: "/about",
+        element: <About></About>
       },
-      { path: "submit", element: <ExtraPage></ExtraPage> }, 
     ],
   },
   {

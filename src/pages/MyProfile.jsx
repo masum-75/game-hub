@@ -9,7 +9,7 @@ const MyProfile = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="bg-[#0b0b0b] p-6 rounded">
+    <div className="p-6 rounded">
       <div className="flex items-center gap-6">
         <img src={user?.photoURL || userIcon} className="w-28 h-28 rounded-full object-cover" />
         <div>

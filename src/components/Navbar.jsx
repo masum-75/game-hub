@@ -36,20 +36,20 @@ const Navbar = () => {
         </li>
         <li>
           <NavLink
-            to="/submit"
+            to="/installation"
             className={({ isActive }) =>
               isActive ? "text-purple-400 font-semibold" : "text-gray-300"
             }
           >
-            Submit Game
+            Installed
           </NavLink>
         </li>
         <li>
           <NavLink
-            to="/#library"
+            to="/about"
             className="text-gray-300 hover:text-purple-400"
           >
-            Library
+            About
           </NavLink>
         </li>
       </ul>

@@ -45,7 +45,7 @@ const BannerSlider = () => {
 
       
       <aside className="col-span-3">
-        <div className="bg-[#111] p-4 rounded-lg">
+        <div className="bg-gradient-to-br from-[#0a0a0a] via-[#1b1b1b] to-[#2d2d2d] p-4 rounded-lg">
           <h3 className="text-lg font-semibold mb-3 text-white">Top 3 Games</h3>
           {slides.map((s) => (
             <div
