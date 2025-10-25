@@ -39,9 +39,9 @@ export const router = createBrowserRouter([
     path: "auth",
     element: <AuthLayout />,
     children: [
-      { path: "login", element: <Login /> },
-      { path: "register", element: <Register /> },
-      { path: "forgot", element: <ForgotPassword /> },
+      { path: "/auth/login", element: <Login /> },
+      { path: "/auth/register", element: <Register /> },
+      { path: "/auth/forgot", element: <ForgotPassword /> },
     ],
   },
   { path: "*", element: <NotFound /> },
