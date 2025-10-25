@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "title": "The Witcher 3: Wild Hunt",
+    "genre": "RPG",
+    "rating": 9.7,
+    "release_year": 2015,
+    "image": "https://i.postimg.cc/3x2jCCc4/taylor-r-sucr-F2le-Em0-unsplash.jpg",
+    "description": "An epic story-driven RPG set in a dark fantasy world filled with monsters, magic, and moral choices."
+  },
+  {
+    "id": 2,
+    "title": "Red Dead Redemption 2",
+    "genre": "Action Adventure",
+    "rating": 9.8,
+    "release_year": 2018,
+    "image": "https://i.postimg.cc/g0Yhy9Rw/taylor-r-6NL-Rjy-DGq-Y-unsplash.jpg",
+    "description": "A breathtaking open-world western about outlaws, survival, and loyalty in a changing America."
+  },
+  {
+    "id": 3,
+    "title": "Cyberpunk 2077",
+    "genre": "Action RPG",
+    "rating": 8.9,
+    "release_year": 2020,
+    "image": "https://i.postimg.cc/dVF6fxdn/martin-martz-VZvka-TF6-w-Q-unsplash.jpg",
+    "description": "An immersive open-world RPG set in Night City — a place obsessed with power, glamour, and body modification."
+  },
+  {
+    "id": 4,
+    "title": "God of War: Ragnarök",
+    "genre": "Action Adventure",
+    "rating": 9.6,
+    "release_year": 2022,
+    "image": "https://i.postimg.cc/7Y8nCWBg/amanz-IAAx-Rtlm-D9w-unsplash.jpg",
+    "description": "Kratos and Atreus embark on a mythic journey to prevent Ragnarok in this cinematic Norse saga."
+  },
+  {
+    "id": 5,
+    "title": "Hollow Knight",
+    "genre": "Metroidvania",
+    "rating": 9.1,
+    "release_year": 2017,
+    "image": "https://i.postimg.cc/qqfy3NGM/amanz-u-Y6ZORCOCAM-unsplash.jpg",
+    "description": "Explore the mysterious underground kingdom of Hallownest in this atmospheric action platformer."
+  },
+  {
+    "id": 6,
+    "title": "Elden Ring",
+    "genre": "RPG",
+    "rating": 9.9,
+    "release_year": 2022,
+    "image": "https://i.postimg.cc/6qL24Y3V/aronpw-LB4So-Qkm-WGc-unsplash.jpg",
+    "description": "An expansive fantasy world filled with lore, deadly bosses, and breathtaking landscapes, created by FromSoftware."
+  },
+  {
+    "id": 7,
+    "title": "Minecraft",
+    "genre": "Sandbox",
+    "rating": 9.0,
+    "release_year": 2011,
+    "image": "https://i.postimg.cc/mrHrF8XJ/michael-marais-Eaw-JDHhp-Q8E-unsplash.jpg",
+    "description": "Build, explore, and survive in an infinite blocky world limited only by your imagination."
+  },
+  {
+    "id": 8,
+    "title": "Fortnite",
+    "genre": "Battle Royale",
+    "rating": 8.4,
+    "release_year": 2017,
+    "image": "https://i.postimg.cc/g2fzd3zt/nick-hamze-V6wm5Z18obw-unsplash.jpg",
+    "description": "A vibrant online battle royale game where players build, shoot, and survive until the last one stands."
+  },
+  {
+    "id": 9,
+    "title": "Valorant",
+    "genre": "Shooter",
+    "rating": 8.7,
+    "release_year": 2020,
+    "image": "https://i.postimg.cc/0Q9q2fTP/roberto-vincenzo-minasi-r8Qyvad1-2I-unsplash.jpg",
+    "description": "A tactical 5v5 hero shooter combining precise gunplay with unique agent abilities."
+  },
+  {
+    "id": 10,
+    "title": "Apex Legends",
+    "genre": "Battle Royale",
+    "rating": 8.6,
+    "release_year": 2019,
+    "image": "https://i.postimg.cc/xdyW7mcW/xingye-jiang-0b-G5s-t0k-R0-unsplash.jpg",
+    "description": "A squad-based hero shooter set in the Titanfall universe featuring unique legends and fast-paced combat."
+  },
+  {
+    "id": 11,
+    "title": "Assassin’s Creed Valhalla",
+    "genre": "Action RPG",
+    "rating": 8.8,
+    "release_year": 2020,
+    "image": "https://i.postimg.cc/nLkPTtPv/taylor-r-wj-ER4Ywen0M-unsplash.jpg",
+    "description": "Live the saga of a Viking raider building their settlement and exploring the Dark Ages of England."
+  },
+  {
+    "id": 12,
+    "title": "Genshin Impact",
+    "genre": "Action RPG",
+    "rating": 9.0,
+    "release_year": 2020,
+    "image": "https://i.postimg.cc/SNM139P8/aleksandar-andreev-8p-Gbyccxj-OU-unsplash.jpg",
+    "description": "An anime-style open-world adventure game filled with elemental magic and cross-platform play."
+  },
+  {
+    "id": 13,
+    "title": "Call of Duty: Modern Warfare II",
+    "genre": "Shooter",
+    "rating": 8.5,
+    "release_year": 2022,
+    "image": "https://i.postimg.cc/fWthWJPp/oliver-beer-ABbts-OGAm-Z4-unsplash.jpg",
+    "description": "Join Task Force 141 in this fast-paced shooter featuring realistic combat and stunning visuals."
+  },
+  {
+    "id": 14,
+    "title": "Resident Evil 4 Remake",
+    "genre": "Horror",
+    "rating": 9.3,
+    "release_year": 2023,
+    "image": "https://i.postimg.cc/q7M9PRy4/roberto-vincenzo-minasi-iz-Bj-PWb-C-o-Q-unsplash.jpg",
+    "description": "A modern reimagining of the survival horror classic, combining action, tension, and beautiful graphics."
+  },
+  {
+    "id": 15,
+    "title": "The Legend of Zelda: Tears of the Kingdom",
+    "genre": "Adventure",
+    "rating": 9.8,
+    "release_year": 2023,
+    "image": "https://i.postimg.cc/CLGXdD4x/roberto-vincenzo-minasi-CYp-PNoo-T1NA-unsplash.jpg",
+    "description": "Explore the skies and lands of Hyrule in this creative sequel filled with puzzles and exploration."
+  },
+  {
+    "id": 16,
+    "title": "Stardew Valley",
+    "genre": "Simulation",
+    "rating": 9.2,
+    "release_year": 2016,
+    "image": "https://i.postimg.cc/nrvRjbBB/jakub-zerdzicki-y-SDHLfz-O8U4-unsplash.jpg",
+    "description": "Grow crops, raise animals, and build your dream farm life in this relaxing indie hit."
+  },
+  {
+    "id": 17,
+    "title": "Overwatch 2",
+    "genre": "Shooter",
+    "rating": 8.2,
+    "release_year": 2022,
+    "image": "https://i.postimg.cc/Pq92SrM7/nikita-kachanovsky-mwyt-Ica3q-NA-unsplash.jpg",
+    "description": "Team up in 5v5 battles with unique heroes, dynamic maps, and fast-paced team combat."
+  },
+  {
+    "id": 18,
+    "title": "Among Us",
+    "genre": "Party Game",
+    "rating": 8.0,
+    "release_year": 2018,
+    "image": "https://i.postimg.cc/sDmmtJcW/luis-villasmil-ITFw-Hd-PEED0-unsplash.jpg",
+    "description": "Work together to complete tasks — or sabotage your crewmates in this multiplayer social deduction game."
+  },
+  {
+    "id": 19,
+    "title": "Hades",
+    "genre": "Roguelike",
+    "rating": 9.4,
+    "release_year": 2020,
+    "image": "https://i.postimg.cc/RhXtbgzy/image.jpg",
+    "description": "Battle your way out of the Underworld in this stylish, fast-paced roguelike with rich storytelling."
+  },
+  {
+    "id": 20,
+    "title": "Spider-Man 2",
+    "genre": "Action Adventure",
+    "rating": 9.5,
+    "release_year": 2023,
+    "image": "https://i.postimg.cc/gJp6zCcb/javier-martinez-h-UD0PUczw-JQ-unsplash.jpg",
+    "description": "Swing across New York as Peter Parker and Miles Morales in this superhero action masterpiece."
+  }
+]

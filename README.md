@@ -1,16 +1,43 @@
-# React + Vite
+Live demo: 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Purpose:
 
-Currently, two official plugins are available:
+GameHub is a modern online library for exploring and installing games.
+Users can browse games, view detailed information, and install or uninstall titles locally.
+It also supports authentication, profile updates, and a simple About page for site info.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Key Features
 
-## React Compiler
+1. React + Vite Single Page Application with React Router
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+2. Firebase Authentication (Email/Password + Google)
 
-## Expanding the ESLint configuration
+3. Protected routes (Game Details, Profile, Installation)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+4. Installation system using localStorage
+
+5. Profile page with update option (name & photo)
+
+6. Forgot Password (Firebase email reset + Gmail redirect)
+
+7. Responsive UI for all devices
+
+8. Toast notifications using React Toastify
+
+9. Smooth animations with Framer Motion
+
+10. About page for site description
+
+# Tech Stack
+
+1. react, react-dom, react-router-dom
+
+2. firebase
+
+3. tailwindcss, daisyui
+
+4. framer-motion
+
+5. react-icons
+
+6. react-toastify
