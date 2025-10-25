@@ -4,12 +4,12 @@ import { getAuth, GoogleAuthProvider } from "firebase/auth";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyAN6nnjaBgHfKauiaiBZkJjcY441cfulnM",
-  authDomain: "game-hub-f24cb.firebaseapp.com",
-  projectId: "game-hub-f24cb",
-  storageBucket: "game-hub-f24cb.firebasestorage.app",
-  messagingSenderId: "777601503203",
-  appId: "1:777601503203:web:d5296d54363a9d9eafdad6"
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
+  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
+  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
+  appId: import.meta.env.VITE_FIREBASE_APP_ID,
 };
 
 // Initialize Firebase
