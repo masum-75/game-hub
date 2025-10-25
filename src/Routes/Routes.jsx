@@ -19,35 +19,42 @@ export const router = createBrowserRouter([
     element: <HomeLayout />,
     children: [
       { index: true, element: <Home /> },
-      { path: "game/:id", 
-        element: <PrivateRoute>
-          <GameDetails />
-        </PrivateRoute>
-        },
-      { path: "profile",
-      element: <PrivateRoute>
-        <MyProfile></MyProfile> 
-      </PrivateRoute>
-    },
-      { path: "profile/update", 
-        element: <PrivateRoute>
-          <UpdateProfile />
-        </PrivateRoute> 
 
-      },
       {
-        path: "/installation",
+        path: "game/:id",
         element: (
-         
-            <PrivateRoute>
-              <Installation />
-            </PrivateRoute>
-         
+          <PrivateRoute>
+            <GameDetails />
+          </PrivateRoute>
         ),
       },
       {
-        path: "/about",
-        element: <About></About>
+        path: "profile",
+        element: (
+          <PrivateRoute>
+            <MyProfile />
+          </PrivateRoute>
+        ),
+      },
+      {
+        path: "profile/update",
+        element: (
+          <PrivateRoute>
+            <UpdateProfile />
+          </PrivateRoute>
+        ),
+      },
+      {
+        path: "installation",
+        element: (
+          <PrivateRoute>
+            <Installation />
+          </PrivateRoute>
+        ),
+      },
+      {
+        path: "about",
+        element: <About />,
       },
     ],
   },
@@ -55,9 +62,9 @@ export const router = createBrowserRouter([
     path: "auth",
     element: <AuthLayout />,
     children: [
-      { path: "/auth/login", element: <Login /> },
-      { path: "/auth/register", element: <Register /> },
-      { path: "/auth/forgot", element: <ForgotPassword /> },
+      { path: "login", element: <Login /> },
+      { path: "register", element: <Register /> },
+      { path: "forgot", element: <ForgotPassword /> },
     ],
   },
   { path: "*", element: <NotFound /> },

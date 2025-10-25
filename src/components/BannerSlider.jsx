@@ -2,9 +2,9 @@ import React, { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
 const slides = [
-  { id: 1, title: "Ghost Of Yotei", subtitle: "Pre-order now", image: "https://i.ibb.co/xXKc8N8/witcher3.jpg" },
-  { id: 2, title: "Elden Ring", subtitle: "Now Available", image: "https://i.ibb.co/kDS1Svs/eldenring.jpg" },
-  { id: 3, title: "God Of War Ragnarok", subtitle: "New Content", image: "https://i.ibb.co/4Zk8HgK/gowragnarok.jpg" },
+  { id: 1, title: "Ghost Of Yotei", subtitle: "Pre-order now", image: "https://i.postimg.cc/nLkPTtPv/taylor-r-wj-ER4Ywen0M-unsplash.jpg" },
+  { id: 2, title: "Elden Ring", subtitle: "Now Available", image: "https://i.postimg.cc/6qL24Y3V/aronpw-LB4So-Qkm-WGc-unsplash.jpg" },
+  { id: 3, title: "God Of War Ragnarok", subtitle: "New Content", image: "https://i.postimg.cc/7Y8nCWBg/amanz-IAAx-Rtlm-D9w-unsplash.jpg" },
 ];
 
 const BannerSlider = () => {
