@@ -30,7 +30,7 @@ It also supports authentication, profile updates, and a simple About page for si
 
 # Tech Stack
 
-1. react, react-dom, react-router-dom
+1. react, react-dom,
 
 2. firebase
 
